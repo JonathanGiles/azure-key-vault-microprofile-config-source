@@ -5,8 +5,38 @@
     <artifactId>key-vault-config-source</artifactId>
     <packaging>jar</packaging>
     <version>1.0-SNAPSHOT</version>
+
     <name>key-vault-config-source</name>
+    <description>A library for connecting MicroProfile-based apps to Azure Key Vault for retrieving configuration data.</description>
     <url>https://github.com/JonathanGiles/azure-key-vault-microprofile-config-source</url>
+
+    <issueManagement>
+        <url>https://github.com/JonathanGiles/azure-key-vault-microprofile-config-source/issues</url>
+        <system>GitHub Issues</system>
+    </issueManagement>
+
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>http://www.opensource.org/licenses/mit-license.php</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <scm>
+        <url>https://github.com/JonathanGiles/azure-key-vault-microprofile-config-source</url>
+        <connection>scm:git:git://github.com/JonathanGiles/azure-key-vault-microprofile-config-source.git</connection>
+        <developerConnection>scm:git:git@github.com:JonathanGiles/azure-key-vault-microprofile-config-source.git</developerConnection>
+    </scm>
+
+    <developers>
+        <developer>
+            <email>jonathan@jonathangiles.net</email>
+            <name>Jonathan Giles</name>
+            <url>https://jonathangiles.net</url>
+            <id>JonathanGiles</id>
+        </developer>
+    </developers>
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
