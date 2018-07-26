@@ -1,4 +1,4 @@
-package net.jonathangiles.microprofile.configsource.azure.keyvault;
+package com.microsoft.sandbox.microprofile.config.keyvault;
 
 import com.microsoft.azure.PagedList;
 import com.microsoft.azure.keyvault.KeyVaultClient;

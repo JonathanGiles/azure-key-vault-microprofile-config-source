@@ -1,6 +1,6 @@
 # Azure Key Vault Config Source for MicroProfile Config API
 
-This project contains a config source for the MicroProfile Config API. It allows for dependency injection of values from Azure Key Vault into MicroProfile-based microservices. Worked examples and further details will be published soon.
+This project contains a config source for the MicroProfile Config API. It allows for dependency injection of values from Azure Key Vault into MicroProfile-based microservices.
 
 ## Using the Azure Key Vault Config Source for MicroProfile Config API
 
@@ -10,16 +10,16 @@ Firstly, add the dependency on this library to your project. Below are examples 
 
 ```xml
 <dependency>
-    <groupId>net.jonathangiles.microprofile.configsource.azure.keyvault</groupId>
-    <artifactId>key-vault-config-source</artifactId>
-    <version>0.0.2</version>
+    <groupId>com.microsoft.sandbox.microprofile.config.keyvault</groupId>
+    <artifactId>keyvault-config-source</artifactId>
+    <version>0.0.3</version>
 </dependency>
 ```
 
 **Gradle:**
 
 ```gradle
-compile group: 'net.jonathangiles.microprofile.configsource.azure.keyvault', name: 'key-vault-config-source', version: '0.0.2'
+compile group: 'com.microsoft.sandbox.microprofile.config.keyvault', name: 'keyvault-config-source', version: '0.0.3'
 ```
 
 Once the dependency is added inside your MicroProfile-based application, you need to create a `microprofile-config.properties` file inside `src/main/resources/META-INF`. Inside this file, the following properties must be set based on the Azure Key Vault configuration you have created (if you haven't created an Azure Key Vault yet, refer to the [steps in my other repo](https://github.com/JonathanGiles/microprofile-on-azure/tree/master/keyvault-configsource)):

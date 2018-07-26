@@ -1,1 +1,1 @@
-net.jonathangiles.microprofile.configsource.azure.keyvault.AzureKeyVaultConfigSource
+com.microsoft.sandbox.microprofile.config.keyvault.AzureKeyVaultConfigSource

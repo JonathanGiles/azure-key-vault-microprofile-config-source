@@ -1,4 +1,4 @@
-package net.jonathangiles.microprofile.configsource.azure.keyvault;
+package com.microsoft.sandbox.microprofile.config.keyvault;
 
 import com.microsoft.aad.adal4j.AuthenticationContext;
 import com.microsoft.aad.adal4j.AuthenticationResult;
